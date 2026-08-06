@@ -4,8 +4,9 @@
 #include <stdio.h>
 
 int main() {
-    
-
-
-
+    int idade = 10;
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+    printf("Sua idade: %d", idade);
+    return 0;
 }
