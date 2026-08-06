@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 
-int main() {
+int div() {
     int idade = 10;
     printf("Digite sua idade: ");
     scanf("%d", &idade);
