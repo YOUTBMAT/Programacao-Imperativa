@@ -23,7 +23,7 @@ int main() {
     N2 = (c1 - '0') * 100 + (c2 - '0') * 10 + (c3 - '0');
 
     Q = (float) N1/N2;
-    printf("Valor da divisao é %8.3f", Q);
+    printf("Valor da divisao entre %d e %d e igual a: %8.3f", N1, N2, Q);
 
     return 0;
 }
