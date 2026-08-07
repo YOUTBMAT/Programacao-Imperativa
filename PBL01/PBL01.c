@@ -8,14 +8,14 @@ int main() {
     int N1, N2;
     float Q;
 
-    printf("Digite 3 numeros, precione ENTER depois de cada um:\n");
+    printf("Digite 3 numeros, pressione ENTER depois de cada um:\n");
     scanf(" %c", &c1);
     scanf(" %c", &c2);
     scanf(" %c", &c3);
 
     N1 = (c1 - '0') * 100 + (c2 - '0') * 10 + (c3 - '0');
 
-    printf("Digite 3 numeros, precione ENTER depois de cada um:\n");
+    printf("Digite 3 numeros, pressione ENTER depois de cada um:\n");
     scanf(" %c", &c1);
     scanf(" %c", &c2);
     scanf(" %c", &c3);
